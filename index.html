@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4">
+        <label for="dis"></label>
+        <input name="hienthi" id="dis">
+        </td>
+    </tr>
+    <tr>
+        <td><button name="button" id="1" onclick="num(1)" value="1">1</button> </td>
+        <td><button name="button" id="2" onclick="num(2)" value="2">2</button></td>
+        <td><button name="button" id="3" onclick="num(3)" value="3">3</button></td>
+        <td><button name="button" id="+" onclick="ope('+')" value="+">+</button></td>
+    </tr>
+    <tr>
+        <td><button name="button" id="4" onclick="num(4)" value="4">4</button></td>
+        <td><button name="button" id="5" onclick="num(5)" value="5">5</button></td>
+        <td><button name="button" id="6" onclick="num(6)" value="6">6</button></td>
+        <td><button name="button" id="-" onclick="ope('-')" value="-">-</button></td>
+    </tr>
+    <tr>
+        <td><button name="button" id="7" onclick="num(7)" value="7">7</button></td>
+        <td><button name="button" id="8" onclick="num(8)" value="8">8</button></td>
+        <td><button name="button" id="9" onclick="num(9)" value="9">9</button></td>
+        <td><button name="button" id="*" onclick="ope('*')" value="*">x</button></td>
+    </tr>
+    <tr>
+        <td><button type="reset" id="reset" onclick="rs()" value="">c</button></td>
+        <td><button name="button" id="0" onclick="num(0)" value="">0</button></td>
+        <td><button name="result" id="result" onclick="rslt()">=</button></td>
+        <td><button name="button" id="/" onclick="ope('/')" value="/">/</button> </td>
+    </tr>
+</table>
+<script src="script.js">
+
+</script>
+</body>
+</html>
